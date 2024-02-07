@@ -1,0 +1,59 @@
+.name {
+    display: block;
+
+}
+
+.email {
+    display: block;
+}
+
+.experience {
+
+    display: block;
+}
+
+.rating {
+
+    flex-direction: row-reverse;
+    font-size: 24px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: #aaa;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '★';
+    margin: 5px;
+}
+
+.rating input:checked~label {
+    color: #e1b416;
+}
+
+
+td {
+    border: 3px solid black;
+    padding: 13px;
+    gap: 30px;
+    display: grid;
+}
+
+th {
+    background-color: white;
+}
+.box {
+    width: 45%;
+    height:25vh;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
